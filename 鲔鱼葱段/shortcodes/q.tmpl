@@ -1,0 +1,12 @@
+<figure class="q_${key}">
+  <% d = global_data['refs'][key] %>
+  <% url = d['url'] %>
+  <% author = d['name'] %>
+  <% title = d['title'] %>
+  <blockquote cite="${url}"}>
+   test
+  </blockquote>
+  <figcaption>${author} <br/>
+    <cite><a href="${url}">${title}</a></cite>
+  </figcaption>
+</figure>

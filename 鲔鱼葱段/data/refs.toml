@@ -1,0 +1,8 @@
+title = "Reference Library"
+
+# each table is an entry, with the table name serving as the reference key
+[ferriss2017]
+name = 'Tim Ferriss'
+title = "Tribe of Mentors"
+url = "https://tribeofmentors.com/"
+color = "#ffd401"
